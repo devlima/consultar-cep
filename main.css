@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, 
+input {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #efefef;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.form-container {
+    padding: 20px 30px;
+    background-color: #2d2d2d;
+    border-radius: 40px;
+}
+
+.cep-input {
+    font-size: 1.2rem;
+    color: #efefef;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.cep-button {
+    font-size: 1.5rem;
+    color: #efefef;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.cep-info {
+    margin: 20px;
+    font-size: 1.3rem;
+    color: #2d2d2d;
+    text-align: center;
+    line-height: 2rem;
+}
